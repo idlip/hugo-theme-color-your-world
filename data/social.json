@@ -1,38 +1,11 @@
 [
   {
-    "entry": "bsky",
-    "label": "Bluesky",
-    "decentralized": true,
+    "entry": "email",
+    "label": "Email",
+    "base": "mailto:<username>",
     "icon": {
-      "id": "bsky",
+      "id": "envelope",
       "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "facebook",
-    "label": "Facebook",
-    "base": "https://facebook.com/<username>",
-    "icon": {
-      "id": "facebook",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "flickr",
-    "label": "Flickr",
-    "base": "https://www.flickr.com/<username>",
-    "icon": {
-      "id": "flickr",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "funkwhale",
-    "label": "Funkwhale",
-    "decentralized": true,
-    "icon": {
-      "id": "funkwhale",
-      "source": "Fork-Awesome"
     }
   },
   {
@@ -50,24 +23,6 @@
     "base": "https://gitlab.com/<username>",
     "icon": {
       "id": "gitlab",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "instagram",
-    "label": "Instagram",
-    "base": "https://www.instagram.com/<username>",
-    "icon": {
-      "id": "instagram",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "keybase",
-    "label": "Keybase",
-    "base": "https://keybase.io/<username>",
-    "icon": {
-      "id": "keybase",
       "source": "Font-Awesome"
     }
   },
@@ -99,33 +54,6 @@
     }
   },
   {
-    "entry": "medium",
-    "label": "Medium",
-    "base": "https://medium.com/@<username>",
-    "icon": {
-      "id": "medium",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "peertube",
-    "label": "PeerTube",
-    "decentralized": true,
-    "icon": {
-      "id": "peertube",
-      "source": "Fork-Awesome"
-    }
-  },
-  {
-    "entry": "pixelfed",
-    "label": "PixelFed",
-    "decentralized": true,
-    "icon": {
-      "id": "pixelfed",
-      "source": "Fork-Awesome"
-    }
-  },
-  {
     "entry": "reddit",
     "label": "Reddit",
     "base": "https://www.reddit.com/user/<username>",
@@ -142,104 +70,6 @@
       "id": "element-logo",
       "source": "Element"
     }
-  },
-  {
-    "entry": "snapchat",
-    "label": "Snapchat",
-    "base": "https://www.snapchat.com/add/<username>",
-    "icon": {
-      "id": "snapchat",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "soundcloud",
-    "label": "SoundCloud",
-    "base": "https://soundcloud.com/<username>",
-    "icon": {
-      "id": "soundcloud",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "stackOverflow",
-    "label": "Stack Overflow",
-    "base": "https://stackoverflow.com/users/<username>",
-    "icon": {
-      "id": "stack-overflow",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "strava",
-    "label": "Strava",
-    "base": "https://www.strava.com/athletes/<username>",
-    "icon": {
-      "id": "strava",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "telegram",
-    "label": "Telegram",
-    "base": "https://t.me/<username>",
-    "icon": {
-      "id": "telegram",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "twitch",
-    "label": "Twitch",
-    "base": "https://www.twitch.tv/<username>",
-    "icon": {
-      "id": "twitch",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "x",
-    "label": "X",
-    "base": "https://x.com/<username>",
-    "icon": {
-      "id": "x-twitter",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "vimeo",
-    "label": "Vimeo",
-    "base": "https://vimeo.com/<username>",
-    "icon": {
-      "id": "vimeo",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "whatsapp",
-    "label": "WhatsApp",
-    "base": "https://wa.me/<number>",
-    "icon": {
-      "id": "whatsapp",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "xing",
-    "label": "XING",
-    "base": "https://www.xing.com/profile/<username>",
-    "icon": {
-      "id": "xing",
-      "source": "Font-Awesome"
-    }
-  },
-  {
-    "entry": "youtube",
-    "label": "YouTube",
-    "base": "https://youtube.com/@<username>",
-    "icon": {
-      "id": "youtube",
-      "source": "Font-Awesome"
-    }
   }
+
 ]
