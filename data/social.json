@@ -9,6 +9,16 @@
     }
   },
   {
+    "entry": "bsky",
+    "label": "Bluesky",
+    "decentralized": true,
+    "icon": {
+      "id": "bsky",
+      "source": "Font-Awesome"
+    }
+  },
+
+  {
     "entry": "github",
     "label": "GitHub",
     "base": "https://github.com/<username>",
